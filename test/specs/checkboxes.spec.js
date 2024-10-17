@@ -1,7 +1,7 @@
 import { expect } from "@wdio/globals";
 import Checkboxes from "../pageobjects/checkboxes.page.js";
 
-describe.skip("Checking the second and first checkboxes", () => {
+describe("Checking the second and first checkboxes", () => {
   it("The header exists and is called Checkboxes", async () => {
     await Checkboxes.open();
     //Checks to see if the header exists

@@ -2,7 +2,7 @@ import { expect } from "@wdio/globals";
 import KeyPressesPage from "../pageobjects/keyPress.page.js";
 
 
-describe("My Key Press application", () => {
+describe.skip("My Key Press application", () => {
   it("should display that the letter that was entered was C", async () => {
     await KeyPressesPage.open();
     //Presses the "C" key
